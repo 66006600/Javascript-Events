@@ -7,9 +7,12 @@ window.onload = function loadfn() {
 window.turnChanger = function turnChanger() {
 	if (currentUser == "Mario") {
 		currentUser = "Juan";
-	} else {
-		currentUser = "Mario";
+	} 
+		else if (currentUser == "Juan") {
+		currentUser = "Josh";
+		
 	}
+	
 
 	document.getElementById("screen").innerHTML = "It's " + currentUser + "'s turn";
 }

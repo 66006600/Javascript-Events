@@ -1,4 +1,4 @@
 // your function goes here
-document.getElementById("body").onload = function(){
-    alerta = ("Loading Finished");
+document.getElementsByName("body").addEventListener = function(){
+    alerta("loading finished")
 };
